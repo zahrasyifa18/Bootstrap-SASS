@@ -1,0 +1,38 @@
+@use "button";
+@import "ukuran";
+
+$btn-color: button.$backgroundColor;
+$paddingg: button.$padding;
+$font-stack: Helvetica, sans-serif;
+$background-color: rgb(253, 235, 238);
+$primary-color: rgb(241, 163, 176);
+
+button {
+    background-color: $btn-color;
+    padding: $paddingg;
+}
+
+body {
+    font: 100% $font-stack;
+    background-color: $background-color;
+}
+
+h1 {
+    $primary-color: pink !global;
+    color: $primary-color;
+    font-size: $ukuranJudul;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    color: $primary-color;
+    font-size: $ukuranParagraf;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol {
+    color: rgb(173, 50, 70);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: $primary-color;
+}

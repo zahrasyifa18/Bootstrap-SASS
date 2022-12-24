@@ -1,0 +1,28 @@
+button {
+  background-color: rgba(97, 218, 255, 0.74);
+  padding: 15px 25px;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: rgb(253, 235, 238);
+}
+
+h1 {
+  color: pink;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+p {
+  color: pink;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ol {
+  color: rgb(173, 50, 70);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  background-color: pink;
+}/*# sourceMappingURL=citacita.css.map */
